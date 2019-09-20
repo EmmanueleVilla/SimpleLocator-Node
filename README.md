@@ -4,7 +4,7 @@ SimpleLocator is a lightweight and fast [Service Locator](https://en.wikipedia.o
 - No generated code
 - No annotation
 - Simple to setup, simple to use: just initialize its rules and you are ready to go!
-- Ability to add, modify and remove rules at runtime
+- Ability to add and override rules at runtime
 - Unit test friendly (see below 'Best practices')
 - Basic and singleton registration
 
