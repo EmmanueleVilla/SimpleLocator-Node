@@ -1,0 +1,26 @@
+{
+  "name": "simple-locator",
+  "version": "1.0.2",
+  "description": "Lightweight service location library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanueleVilla/SimpleLocator-Node.git"
+  },
+  "keywords": [
+    "simplelocator",
+    "servicelocator",
+    "dependencyinjection",
+    "js",
+    "node"
+  ],
+  "author": "Emmanuele Villa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanueleVilla/SimpleLocator-Node/issues"
+  },
+  "homepage": "https://github.com/EmmanueleVilla/SimpleLocator-Node#readme"
+}
