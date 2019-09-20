@@ -36,13 +36,13 @@ SimpleLocator.set("WEAPON", () => {
 ```
 Retrieve the concrete class
 ```
-concrete = SimpleLocator.get(WEAPON) as IWeapon
+concrete = SimpleLocator.get("WEAPON") as IWeapon
 ```
 
 ### Singleton
 In the same way, one can register a class to be a singleton:
 ```
-SimpleLocator.setSingleton(WEAPON, () => {
+SimpleLocator.setSingleton("WEAPON", () => {
     return new Sword()
 })
 ```
@@ -51,14 +51,14 @@ In this way, SimpleLocator will always return the same instance of MySampleConcr
 ### Multiple Registration
 If you register the same class more times, SimpleLocator will consider only the last one
 ```
-SimpleLocator.set(WEAPON, () => {
+SimpleLocator.set("WEAPON", () => {
     return new Gun()
 })
 
-SimpleLocator.set(WEAPON, () => {
+SimpleLocator.set("WEAPON", () => {
     return new Sword()
 })
-expect(SimpleLocator.get(WEAPON)).toBeInstanceOf(Sword)
+expect(SimpleLocator.get("WEAPON")).toBeInstanceOf(Sword)
 ```
 
 ### Best practices
